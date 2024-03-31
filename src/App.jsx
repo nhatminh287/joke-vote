@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Navbar, Banner, Content, Footer } from 'src/components'
 import './App.css'
 
 function App() {
@@ -8,7 +7,10 @@ function App() {
 
   return (
     <>
-      <h1 className='text-xl font-bold text-red-500'>This is project init</h1>
+      <Navbar />
+      <Banner />
+      <Content />
+      <Footer />
     </>
   )
 }
