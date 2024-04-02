@@ -4,8 +4,16 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
+  theme: { 
+    extend: {
+      screens: {
+ 
+        'tablet': '896px',
+        // => @media (min-width: 640px) { ... }
+  
+        'smalltablet': '660px',
+      },
+    },
   },
   plugins: [],
 }
